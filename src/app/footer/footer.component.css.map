@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "version": 3,
     "mappings": "",
@@ -7,3 +8,6 @@
     "names": [],
     "file": "footer.component.css"
 }
+=======
+{"version":3,"sources":[],"names":[],"mappings":"","file":"footer.component.css"}
+>>>>>>> c298b2b48c9ef86d6085c10b45ed7c5b3a74f7ce
