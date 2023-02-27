@@ -1,9 +1,45 @@
-<<<<<<< HEAD
 img {
   height: 500px;
 }
 
-form {
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin: 15px;
+  padding: 10px;
+}
+
+.container .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .item li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 3rem;
+}
+
+.container .item p {
+  font-weight: bold;
+}
+
+.container .item form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,16 +47,37 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container .item form h1 {
+  text-align: start;
+}
+
+.container .item form label {
+  margin: 1.1rem;
+}
+
+.container .item form label input {
+  margin-left: 0.4rem;
+}
+
+.container .item form .btnDiv {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.container .item form .btnDiv .btn {
+  margin: 0.9rem;
 }
 /*# sourceMappingURL=bio.component.css.map */
-=======
-<<<<<<< HEAD
-/*# sourceMappingURL=bio.component.css.map */
-=======
-<<<<<<< HEAD
-/* No CSS *//*# sourceMappingURL=bio.component.css.map */
-=======
-/*# sourceMappingURL=bio.component.css.map */
->>>>>>> c298b2b48c9ef86d6085c10b45ed7c5b3a74f7ce
->>>>>>> ebfe1b9d9a5d8244643b64d329372fb60c28a0ae
->>>>>>> fb058eb1c8ce72df6915fa43c8e2b40c320fd2c7
