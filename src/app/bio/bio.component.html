@@ -1,7 +1,7 @@
 <div class="container">
     <div class="d-flex align-items-center">
         <div class="flex-shrink-0">
-            <img src="..." alt="...">
+            <img src="../../assets/img/man.jpg" alt="Wolfgang Suschitzky">
         </div>
         <div class="flex-grow-1 ms-3">
             <p>Wolfgang Suschitzky, the founder of "Studio Team 8", is an acclaimed Austrian photographer with over 70 years of experience. He has been awarded numerous times for his outstanding work and has worked on projects in over 30 countries around
@@ -9,4 +9,26 @@
                 condition. <br> He is currently working on a series of portraits for the new exhibition in the Museum of Modern and Contemporary Art in Munich, Germany. His work is included in numerous private and public collections.</p>
         </div>
     </div>
+
+    <form [formGroup]="info" (ngSubmit)="onSubmit()">
+        <label>
+            First Name:
+            <input type="text" formControlName="firstName">
+        </label>
+
+        <label>
+            Last Name:
+            <input type="text" formControlName="lastName">
+        </label>
+
+        <label>        
+            Email:       
+            <input type="text" formControlName="email">        
+        </label>
+
+        <textarea name="" id="" cols="30" rows="10" formControlName="message"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
 </div>

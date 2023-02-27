@@ -1,5 +1,14 @@
-<<<<<<< HEAD
-/* No CSS *//*# sourceMappingURL=bio.component.css.map */
-=======
+img {
+  height: 500px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=bio.component.css.map */
->>>>>>> c298b2b48c9ef86d6085c10b45ed7c5b3a74f7ce
