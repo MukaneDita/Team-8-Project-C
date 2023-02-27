@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 {"version":3,"sources":[],"names":[],"mappings":"","file":"portfolio.component.css"}
+=======
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "portfolio.component.scss"
+    ],
+    "names": [],
+    "file": "portfolio.component.css"
+}
+>>>>>>> da583d3f30175ad3e9860fac18c5d23773cc1f2b

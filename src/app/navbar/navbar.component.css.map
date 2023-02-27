@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 {"version":3,"sources":["navbar.component.scss","navbar.component.css"],"names":[],"mappings":"AAAQ;EACI,6BAAA;EACA,aAAA;EACA,qBAAA;ACCZ;;ADEQ;EACI,YAAA;EACA,aAAA;EACA,sBAAA;EACA,+BAAA;EACA,YAAA;ACCZ;ADAY;EACI,YAAA;ACEhB;ADAY;EACI,gCAAA;ACEhB","file":"navbar.component.css"}
+=======
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "navbar.component.scss"
+    ],
+    "names": [],
+    "file": "navbar.component.css"
+}
+>>>>>>> da583d3f30175ad3e9860fac18c5d23773cc1f2b
