@@ -1,34 +1,72 @@
-<div class="container">
-    <div class="d-flex align-items-center">
-        <div class="flex-shrink-0">
-            <img src="../../assets/img/man.jpg" alt="Wolfgang Suschitzky">
-        </div>
-        <div class="flex-grow-1 ms-3">
-            <p>Wolfgang Suschitzky, the founder of "Studio Team 8", is an acclaimed Austrian photographer with over 70 years of experience. He has been awarded numerous times for his outstanding work and has worked on projects in over 30 countries around
-                the world. His works can be found in private and corporate collections, as well as museums, both nationally and internationally. His documentary-style photos capture moments of raw emotion, often exploring themes of poverty and the human
-                condition. <br> He is currently working on a series of portraits for the new exhibition in the Museum of Modern and Contemporary Art in Munich, Germany. His work is included in numerous private and public collections.</p>
-        </div>
+<h1 class="text-center m-5">
+    Who are we?</h1>
+<div class="d-flex align-items-center">
+    <div class="flex-shrink-0 m-3">
+        <img src="../../assets/img/man.jpg" alt="Wolfgang Suschitzky">
     </div>
+    <div class="flex-grow-1 ms-3">
+        <p>Wolfgang Suschitzky, the founder of "Studio Team 8", is an acclaimed Austrian photographer with over 70 years of experience. He has been awarded numerous times for his outstanding work and has worked on projects in over 30 countries around the
+            world. His works can be found in private and corporate collections, as well as museums, both nationally and internationally. His documentary-style photos capture moments of raw emotion, often exploring themes of poverty and the human condition.
+            <br> He is currently working on a series of portraits for the new exhibition in the Museum of Modern and Contemporary Art in Munich, Germany. His work is included in numerous private and public collections.</p>
+    </div>
+</div>
 
-    <form [formGroup]="info" (ngSubmit)="onSubmit()">
-        <label>
+<div class="container">
+    <div class="item">
+
+        <form [formGroup]="info" (ngSubmit)="onSubmit()">
+            <h1>Contact Us</h1>
+            <label>
             First Name:
             <input type="text" formControlName="firstName">
         </label>
 
-        <label>
+            <label>
             Last Name:
             <input type="text" formControlName="lastName">
         </label>
 
-        <label>        
+            <label>        
             Email:       
             <input type="text" formControlName="email">        
         </label>
 
-        <textarea name="" id="" cols="30" rows="10" formControlName="message"></textarea>
+            <textarea name="" id="" cols="40" rows="10" formControlName="message"></textarea>
 
-        <input type="submit" value="Submit">
+            <div class="btnDiv">
+                <input type="submit" value="Submit" class="btn btn-success">
+            </div>
 
-    </form>
+        </form>
+    </div>
+
+    <div class="item">
+
+        <ul>
+            <h1>Awards</h1>
+            <p>2022</p>
+            <li>APA Portrait Award (Corporate).</li>
+            <p>2021</p>
+            <li>APA Portrait Award (Children).</li>
+            <p>2020</p>
+            <li>Council on Aging California.</li>
+            <li>Spider Awards (Black & White).</li>
+            <li>International Photo Award ( IPA).</li>
+            <li>International Color Award (Advertising).</li>
+            <li> Monochrome Photography Award.</li>
+            <li>Spotlight Award (Production Paradise).</li>
+            <p>2019</p>
+            <li>Monochrome Photography Award (Portraits)”</li>
+            <p>2018</p>
+            <li>Council on Aging California.</li>
+            <li>International Photo Award-IPA (Self portrait).</li>
+            <p>2017</p>
+            <li>Monochrome Award.</li>
+            <li>Council on Aging California</li>
+            <p>2016</p>
+            <li>Viewbug</li>
+            <li>Council on Aging California.</li>
+            <li>Bong Photography-Portrait photographer of the Year.</li>
+        </ul>
+    </div>
 </div>
