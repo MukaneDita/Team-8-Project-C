@@ -1,4 +1,5 @@
 <div class="container">
+<<<<<<< HEAD
     <div *ngFor="let val of images">
         <img src="{{val.link1}}" alt="{{val.link1}}">
     </div>
@@ -28,3 +29,32 @@
         </div>
     </div>
 </div> -->
+=======
+    <div class="card bg-light mb-5" *ngFor="let val of image imagesAll">
+        <div class="card-header container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-sm-5 col-xs-4">
+                    <h5 class="tex-bold">{{val.link1}}</h5>
+                </div>
+                <div class="col-md-4 col-sm-2 col-xs-2 float right text-right">
+
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <img class="card-img-top" src="/assets/menu/{{ menuItem.displyImage }}" alt="{{menuItem.title}}">
+            <p class="card-text">{{ menuItem.description}}</p>
+            <ng-container *ngIf="menuItem.available; else notAvailable">
+                <a class="btn btn-primary card-link" (click)="showMoreDetail(menuItem.id)">More Details</a>
+                <a class="btn btn-primary card-link" (click)="addMenuToOrderCart(menuItem.id)">Add to Cart</a>
+            </ng-container>
+            <ng-template #notAvailable>
+                <p class="text-danger font-weight-bold">Not available</p>
+            </ng-template>
+
+
+        </div>
+    </div>
+</div>
+<!-- Gallery -->
+>>>>>>> c495a2ba082bccbd5bf720775cf90e7a6dacff03
