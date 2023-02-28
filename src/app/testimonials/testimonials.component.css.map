@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sources":[],"names":[],"mappings":"","file":"testimonials.component.css"}
-=======
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "testimonials.component.scss"
-    ],
-    "names": [],
-    "file": "testimonials.component.css"
-}
->>>>>>> 33e0041e8c81e203ca35d2f295e67dc279ca56a3
+{"version":3,"sources":["testimonials.component.scss","testimonials.component.css"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,gBAAA;ACCJ","file":"testimonials.component.css"}

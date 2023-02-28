@@ -1,18 +1,24 @@
-    img {
-        height: 500px;
+    .container {
+        width: 80%;
+        margin-left: 20%;
     }
     
-    .container {
+    img {
+        height: 31.25rem;
+    }
+    
+    .container2 {
         display: flex;
-        justify-content: space-between;
-        align-items: start;
-        margin: 15px;
-        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        margin: 0.938rem;
+        padding: 0.625rem;
+        gap: 20rem;
         .item {
             // border: 1px solid red;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
             // h1 {
             //     text-align: center;
             // }
@@ -28,8 +34,8 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: end;
-                margin: 10px;
-                padding: 10px;
+                margin: 0.625rem;
+                padding: 0.625rem;
                 h1 {
                     // margin: 40px;
                     text-align: start;
@@ -41,8 +47,8 @@
                     }
                 }
                 .btnDiv {
-                    justify-self: center;
-                    align-self: center;
+                    // justify-self: center;
+                    // align-self: center;
                     .btn {
                         margin: 0.9rem;
                     }

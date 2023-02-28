@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sources":[],"names":[],"mappings":"","file":"portfolio.component.css"}
-=======
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "portfolio.component.scss"
-    ],
-    "names": [],
-    "file": "portfolio.component.css"
-}
->>>>>>> 33e0041e8c81e203ca35d2f295e67dc279ca56a3
+{"version":3,"sources":["portfolio.component.scss","portfolio.component.css"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,gBAAA;ACCJ","file":"portfolio.component.css"}

@@ -1,53 +1,45 @@
-img {
-  height: 500px;
+.container {
+  width: 80%;
+  margin-left: 20%;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  margin: 15px;
-  padding: 10px;
+img {
+  height: 31.25rem;
 }
-.container .item {
+
+.container2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0.938rem;
+  padding: 0.625rem;
+  gap: 20rem;
 }
-.container .item li {
+.container2 .item li {
   width: -moz-fit-content;
   width: fit-content;
   margin-left: 3rem;
 }
-.container .item p {
+.container2 .item p {
   font-weight: bold;
 }
-.container .item form {
+.container2 .item form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: end;
-  margin: 10px;
-  padding: 10px;
+  margin: 0.625rem;
+  padding: 0.625rem;
 }
-.container .item form h1 {
+.container2 .item form h1 {
   text-align: start;
 }
-.container .item form label {
+.container2 .item form label {
   margin: 1.1rem;
 }
-.container .item form label input {
+.container2 .item form label input {
   margin-left: 0.4rem;
 }
-.container .item form .btnDiv {
-  justify-self: center;
-  align-self: center;
-}
-.container .item form .btnDiv .btn {
+.container2 .item form .btnDiv .btn {
   margin: 0.9rem;
-<<<<<<< HEAD
 }/*# sourceMappingURL=bio.component.css.map */
-=======
-}
-/*# sourceMappingURL=bio.component.css.map */
->>>>>>> 33e0041e8c81e203ca35d2f295e67dc279ca56a3
