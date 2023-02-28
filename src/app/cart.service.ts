@@ -8,8 +8,8 @@ export class CartService {
 cart : Array<Ishop> = [];
   constructor() { }
 
-  addToCart(photo: Ishop) {
-    this.cart.push(photo);
+  addToCart(val: Ishop) {
+    this.cart.push(val);
   }
 
   getCart() {
