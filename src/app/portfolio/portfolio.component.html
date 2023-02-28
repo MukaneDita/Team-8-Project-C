@@ -1,23 +1,30 @@
 <div class="container">
-    <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="assets/img/concerts(horizontal)/concert7.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Dark sepia photo of gitar player" />
-
-            <img src="assets/img/portraits(vertical)/portrait1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Portrait with woman in black with white flower" />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="assets/img/still-life(vertical)/still_life5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Dried Physalis on wood" />
-
-            <img src="assets/img/vacation-family(horizontal)/vacation7.jpg" alt="Family on bridge in sea at sunset" />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="assets/img/wedding(horizontal)/wedding6.jpg" alt="Newlywed in sunflower field" />
-
-            <img src="assets/img/portraits(vertical)/portrait8.jpg" alt="Closeup portrait of a lion" />
-        </div>
+    <div *ngFor="let val of images">
+        <img src="{{val.link1}}" alt="{{val.link1}}">
     </div>
 </div>
-
-<!-- Gallery -->
+<!-- <div class=row>
+    <div *ngFor="let val of images">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{{val.link1}}" class="d-block w-100" alt="{{val.link1}}">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{val.link2}}" class="d-block w-100" alt="{{val.link2}}">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{val.link3}}" class="d-block w-100" alt="{{val.link3}}">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+        </div>
+    </div>
+</div> -->
