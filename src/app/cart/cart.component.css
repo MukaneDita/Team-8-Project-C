@@ -1,12 +1,23 @@
-<<<<<<< HEAD
-=======
-#empty {
-  height: 25rem;
+.container {
+  width: 80%;
+  margin-left: 20%;
 }
 
-#empty h2 {
+.container #empty {
+  height: 37rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container #empty h2 {
   margin: 3.2rem;
   padding: 3.2rem;
 }
->>>>>>> 94c235645491be988b405af813d9a4a668d5c053
 /*# sourceMappingURL=cart.component.css.map */

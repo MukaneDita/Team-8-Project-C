@@ -5,9 +5,10 @@
         <table class="table text-center">
             <thead>
                 <tr>
-                    <th scope="col"></th>
+                    <th scope="col">Item</th>
                     <th scope="col">Product</th>
                     <th scope="col">Price</th>
+                    <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
@@ -15,7 +16,7 @@
                     <td><img src="{{ item.link }}" height="60px" alt="{{ item.name }}"></td>
                     <td>{{ item.name }}</td>
                     <td>{{ item.price | currency : "EUR" }}</td>
-                    <td>{{ item.qtty }} <i class="delete fs-4 bi bi-trash3-fill text-danger" (click)="deleteQtty(i)"></i></td>
+                    <td><i class="delete fs-4 bi bi-trash3-fill text-danger" (click)="deleteQtty(i)"></i></td>
                 </tr>
 
                 <tr>

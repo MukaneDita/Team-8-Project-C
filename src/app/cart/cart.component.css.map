@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-{"version":3,"sources":[],"names":[],"mappings":"","file":"cart.component.css"}
-=======
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,KAAK;CAKhB;;AAND,AAEI,MAFE,CAEF,EAAE,CAAC;EACC,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;CAClB",
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,GAAG;CAWnB;;AAbD,AAGI,UAHM,CAGN,MAAM,CAAC;EACH,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAKtB;;AAZL,AAQQ,UARE,CAGN,MAAM,CAKF,EAAE,CAAC;EACC,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;CAClB",
     "sources": [
         "cart.component.scss"
     ],
     "names": [],
     "file": "cart.component.css"
 }
->>>>>>> 94c235645491be988b405af813d9a4a668d5c053

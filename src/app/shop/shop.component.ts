@@ -13,11 +13,17 @@ export class ShopComponent implements OnInit {
 
   constructor(private cartService: CartService) { }
 
+  //this function disables the Buy button after it clicked
+  actionMethod($event: MouseEvent) {
+    ($event.target as HTMLButtonElement).disabled = true;
+    // Do actions.
+}
+
   addToCart(val: Ishop) {
     window.alert('Your order has been added to the cart!');
     this.cartService.addToCart(val);
   }
-
+  
   ngOnInit(): void {
   }
 }

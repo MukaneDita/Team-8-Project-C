@@ -1,7 +1,14 @@
-#empty {
-    height: 25rem;
-    h2 {
-        margin: 3.2rem;
-        padding: 3.2rem;
+.container {
+    width: 80%;
+    margin-left: 20%;
+    #empty {
+        height: 37rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            margin: 3.2rem;
+            padding: 3.2rem;
+        }
     }
 }

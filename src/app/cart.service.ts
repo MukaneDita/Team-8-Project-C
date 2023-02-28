@@ -10,6 +10,7 @@ cart : Array<Ishop> = [];
 
   addToCart(val: Ishop) {
     this.cart.push(val);
+    
   }
 
   getCart() {
@@ -32,5 +33,6 @@ cart : Array<Ishop> = [];
     this.cart[i].qtty = 1;
     this.cart.splice(i, 1);
   }
+  
 
 }
