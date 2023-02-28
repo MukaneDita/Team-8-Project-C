@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 {"version":3,"sources":[],"names":[],"mappings":"","file":"landing.component.css"}
+=======
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "landing.component.scss"
+    ],
+    "names": [],
+    "file": "landing.component.css"
+}
+>>>>>>> 33e0041e8c81e203ca35d2f295e67dc279ca56a3

@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 {"version":3,"sources":[],"names":[],"mappings":"","file":"app.component.css"}
+=======
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "app.component.scss"
+    ],
+    "names": [],
+    "file": "app.component.css"
+}
+>>>>>>> 33e0041e8c81e203ca35d2f295e67dc279ca56a3
