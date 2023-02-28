@@ -11,6 +11,7 @@ import { DetailsComponent } from './details/details.component';
 import { BioComponent } from './bio/bio.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     PortfolioComponent,
     DetailsComponent,
     BioComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,

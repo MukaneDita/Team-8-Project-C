@@ -1,11 +1,7 @@
 <<<<<<< HEAD
 {"version":3,"sources":[],"names":[],"mappings":"","file":"landing.component.css"}
 =======
-<<<<<<< HEAD
 {
-=======
-<< << << < HEAD {
->>>>>>> 546a79a1fbf66a2d9f05792b98a9508b26cc0760
     "version": 3,
     "mappings": "",
     "sources": [
@@ -13,11 +9,5 @@
     ],
     "names": [],
     "file": "landing.component.css"
-<<<<<<< HEAD
 }
-=======
-} ===
-=== = { "version": 3, "sources": [], "names": [], "mappings": "", "file": "landing.component.css" } >>>
->>> > c298b2b48c9ef86d6085c10b45ed7c5b3a74f7ce
->>>>>>> 546a79a1fbf66a2d9f05792b98a9508b26cc0760
->>>>>>> da583d3f30175ad3e9860fac18c5d23773cc1f2b
+>>>>>>> 33e0041e8c81e203ca35d2f295e67dc279ca56a3

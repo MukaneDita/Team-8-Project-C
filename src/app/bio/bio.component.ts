@@ -23,5 +23,6 @@ export class BioComponent {
       console.log(a)
    
     }
+  
 
 }

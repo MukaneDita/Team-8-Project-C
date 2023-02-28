@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-{"version":3,"sources":[],"names":[],"mappings":"","file":"bio.component.css"}
+{"version":3,"sources":["bio.component.scss","bio.component.css"],"names":[],"mappings":"AAAI;EACI,aAAA;ACCR;;ADEI;EACI,aAAA;EACA,8BAAA;EACA,kBAAA;EACA,YAAA;EACA,aAAA;ACCR;ADAQ;EAEI,aAAA;EACA,uBAAA;EACA,mBAAA;ACCZ;ADGY;EACI,uBAAA;EAAA,kBAAA;EACA,iBAAA;ACDhB;ADGY;EACI,iBAAA;ACDhB;ADGY;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,gBAAA;EACA,YAAA;EACA,aAAA;ACDhB;ADEgB;EAEI,iBAAA;ACDpB;ADGgB;EACI,cAAA;ACDpB;ADEoB;EACI,mBAAA;ACAxB;ADGgB;EACI,oBAAA;EACA,kBAAA;ACDpB;ADEoB;EACI,cAAA;ACAxB","file":"bio.component.css"}
 =======
 {
     "version": 3,
@@ -10,4 +10,4 @@
     "names": [],
     "file": "bio.component.css"
 }
->>>>>>> da583d3f30175ad3e9860fac18c5d23773cc1f2b
+>>>>>>> 33e0041e8c81e203ca35d2f295e67dc279ca56a3
