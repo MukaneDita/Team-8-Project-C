@@ -1,23 +1,24 @@
-<<<<<<< HEAD
 .icons {
-  justify-content: space-around;
-  display: flex;
-  text-decoration: none;
+    justify-content: space-around;
+    display: flex;
+    text-decoration: none;
 }
 
 .navbar {
-  width: 15rem;
-  display: flex;
-  flex-direction: column;
-  background-color: palevioletred;
-  height: 50vh;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    background-color: palevioletred;
+    height: 50vh;
 }
+
 .navbar a {
-  color: black;
+    color: black;
 }
+
 .navbar a:hover {
-  background-color: blanchedalmond;
-}/*# sourceMappingURL=navbar.component.css.map */
-=======
-/* No CSS *//*# sourceMappingURL=navbar.component.css.map */
->>>>>>> da583d3f30175ad3e9860fac18c5d23773cc1f2b
+    background-color: blanchedalmond;
+}
+
+
+/*# sourceMappingURL=navbar.component.css.map */
