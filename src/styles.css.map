@@ -1,13 +1,1 @@
-<<<<<<< HEAD
 {"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,8EAAA","file":"styles.css"}
-=======
-{
-    "version": 3,
-    "mappings": "AAAA,+EAA+E",
-    "sources": [
-        "styles.scss"
-    ],
-    "names": [],
-    "file": "styles.css"
-}
->>>>>>> da583d3f30175ad3e9860fac18c5d23773cc1f2b
