@@ -1,23 +1,30 @@
-<<<<<<< HEAD
 .icons {
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-decoration: none;
 }
 
 .navbar {
   width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: palevioletred;
   height: 50vh;
 }
+
 .navbar a {
   color: black;
 }
+
 .navbar a:hover {
   background-color: blanchedalmond;
-}/*# sourceMappingURL=navbar.component.css.map */
-=======
-/* No CSS *//*# sourceMappingURL=navbar.component.css.map */
->>>>>>> da583d3f30175ad3e9860fac18c5d23773cc1f2b
+}
+/*# sourceMappingURL=navbar.component.css.map */
