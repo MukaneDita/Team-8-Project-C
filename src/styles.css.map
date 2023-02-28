@@ -1,1 +1,21 @@
+<<<<<<< HEAD
 {"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,8EAAA","file":"styles.css"}
+=======
+<<<<<<< HEAD
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,8EAAA","file":"styles.css"}
+=======
+<<<<<<< HEAD
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,8EAAA","file":"styles.css"}
+=======
+{
+    "version": 3,
+    "mappings": "AAAA,+EAA+E",
+    "sources": [
+        "styles.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
+>>>>>>> 33e0041e8c81e203ca35d2f295e67dc279ca56a3
+>>>>>>> 7afc4e3b0dce1fafdfc6a522718d21e8536c0f98
+>>>>>>> 84705cc2abb872f4e253fcf768c8988b42a63b44

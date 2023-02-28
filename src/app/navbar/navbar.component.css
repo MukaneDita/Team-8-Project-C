@@ -15,5 +15,15 @@
   color: black;
 }
 .navbar a:hover {
+<<<<<<< HEAD
   background-color: blanchedalmond;
 }/*# sourceMappingURL=navbar.component.css.map */
+=======
+<<<<<<< HEAD
+  background-color: blanchedalmond;
+}/*# sourceMappingURL=navbar.component.css.map */
+=======
+    background-color: blanchedalmond;
+}
+>>>>>>> 7afc4e3b0dce1fafdfc6a522718d21e8536c0f98
+>>>>>>> 84705cc2abb872f4e253fcf768c8988b42a63b44
