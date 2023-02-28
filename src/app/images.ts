@@ -64,5 +64,17 @@ export let images = [{
     link8: "assets/img/landscapes(horizontal)/landscape7.jpg",
     link9: "assets/img/landscapes(horizontal)/landscape8.jpg",
     link10: "assets/img/landscapes(horizontal)/landscape9.jpg",
-}]
+}];
 
+interface IImages {
+    link1: string,
+    link2: string,
+    link3: string,
+    link4: string,
+    link5: string,
+    link6: string,
+    link7: string,
+    link8: string,
+    link9: string,
+    link10: string
+};
