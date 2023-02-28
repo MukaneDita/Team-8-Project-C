@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, ParamMap, Params } from '@angular/router';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class PortfolioComponent {
 
+
+  constructor(private rout: ActivatedRoute) { }
+  
 }

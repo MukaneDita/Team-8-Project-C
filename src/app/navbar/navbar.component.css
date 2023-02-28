@@ -5,6 +5,7 @@
 }
 
 .navbar {
+<<<<<<< HEAD
   position: fixed;
   width: 20%;
   display: flex;
@@ -12,13 +13,35 @@
   height: 100%;
   z-index: 2;
   background-color: rgba(255, 255, 255, 0.425);
+=======
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  background-color: palevioletred;
+  height: 50vh;
+>>>>>>> 94c235645491be988b405af813d9a4a668d5c053
 }
 .navbar a {
   color: black;
 }
 .navbar a:hover {
+<<<<<<< HEAD
   background-color: blanchedalmond;
 }
 .navbar img {
   width: 60%;
 }/*# sourceMappingURL=navbar.component.css.map */
+=======
+<<<<<<< HEAD
+  background-color: blanchedalmond;
+}/*# sourceMappingURL=navbar.component.css.map */
+=======
+<<<<<<< HEAD
+  background-color: blanchedalmond;
+}/*# sourceMappingURL=navbar.component.css.map */
+=======
+    background-color: blanchedalmond;
+}
+>>>>>>> 7afc4e3b0dce1fafdfc6a522718d21e8536c0f98
+>>>>>>> 84705cc2abb872f4e253fcf768c8988b42a63b44
+>>>>>>> 94c235645491be988b405af813d9a4a668d5c053

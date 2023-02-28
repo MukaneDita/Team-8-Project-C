@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BioComponent } from './bio/bio.component';
+import { CartComponent } from './cart/cart.component';
 import { LandingComponent } from './landing/landing.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ShopComponent } from './shop/shop.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 const routes: Routes = [{
@@ -13,6 +15,10 @@ const routes: Routes = [{
   path: "portfolio", component: PortfolioComponent
 }, {
   path: "testimonials", component: TestimonialsComponent
+}, {
+  path: "shop", component: ShopComponent
+}, {
+  path: "cart", component: CartComponent
 }];
 
 @NgModule({

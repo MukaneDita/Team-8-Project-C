@@ -12,6 +12,7 @@ import { BioComponent } from './bio/bio.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CartComponent } from './cart/cart.component';
+import { ShopComponent } from './shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CartComponent } from './cart/cart.component';
     DetailsComponent,
     BioComponent,
     TestimonialsComponent,
-    CartComponent
+    CartComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,
