@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, ParamMap, Params } from '@angular/router';
 
 @Component({
   selector: 'app-details',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class DetailsComponent {
 
+  constructor(private rout: ActivatedRoute) { }
 }
