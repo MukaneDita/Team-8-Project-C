@@ -1,23 +1,28 @@
 <div class="container">
-    <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="assets/img/concerts(horizontal)/concert7.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Dark sepia photo of gitar player" />
+    <div class="card bg-light mb-5" *ngFor="let val of image imagesAll">
+        <div class="card-header container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-sm-5 col-xs-4">
+                    <h5 class="tex-bold">{{val.link1}}</h5>
+                </div>
+                <div class="col-md-4 col-sm-2 col-xs-2 float right text-right">
 
-            <img src="assets/img/portraits(vertical)/portrait1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Portrait with woman in black with white flower" />
+                </div>
+            </div>
         </div>
+        <div class="card-body">
+            <img class="card-img-top" src="/assets/menu/{{ menuItem.displyImage }}" alt="{{menuItem.title}}">
+            <p class="card-text">{{ menuItem.description}}</p>
+            <ng-container *ngIf="menuItem.available; else notAvailable">
+                <a class="btn btn-primary card-link" (click)="showMoreDetail(menuItem.id)">More Details</a>
+                <a class="btn btn-primary card-link" (click)="addMenuToOrderCart(menuItem.id)">Add to Cart</a>
+            </ng-container>
+            <ng-template #notAvailable>
+                <p class="text-danger font-weight-bold">Not available</p>
+            </ng-template>
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="assets/img/still-life(vertical)/still_life5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Dried Physalis on wood" />
 
-            <img src="assets/img/vacation-family(horizontal)/vacation7.jpg" alt="Family on bridge in sea at sunset" />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="assets/img/wedding(horizontal)/wedding6.jpg" alt="Newlywed in sunflower field" />
-
-            <img src="assets/img/portraits(vertical)/portrait8.jpg" alt="Closeup portrait of a lion" />
         </div>
     </div>
 </div>
-
 <!-- Gallery -->
