@@ -13,6 +13,10 @@ export class CartComponent implements OnInit {
 
   constructor(private cartService: CartService) { }
 
+  deleteQtty(i:number){
+    this.cartService.deleteQtty(i);
+    this.total = this.cartService.total();
+  }
   ngOnInit(): void {
      this.cart = this.cartService.getCart();
      this.total = this.cartService.total()

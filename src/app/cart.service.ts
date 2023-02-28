@@ -27,4 +27,10 @@ cart : Array<Ishop> = [];
     }
     return total;
   }
+
+  deleteQtty(i:number){
+    this.cart[i].qtty = 1;
+    this.cart.splice(i, 1);
+  }
+
 }

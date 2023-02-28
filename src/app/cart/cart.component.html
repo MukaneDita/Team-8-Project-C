@@ -15,7 +15,9 @@
                     <td><img src="{{ item.link }}" height="60px" alt="{{ item.name }}"></td>
                     <td>{{ item.name }}</td>
                     <td>{{ item.price | currency : "EUR" }}</td>
+                    <td>{{ item.qtty }} <i class="delete fs-4 bi bi-trash3-fill text-danger" (click)="deleteQtty(i)"></i></td>
                 </tr>
+
                 <tr>
                     <ng-template [ngIf]="total>=1000" [ngIfElse]="none">
                         <th scope="row" colspan="4">Total: {{ total | currency : "EUR" }}. Your discount is 10%. Your new price is {{ total * 0.90 | currency : "EUR"}}</th>
