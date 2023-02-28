@@ -1,13 +1,1 @@
-<<<<<<< HEAD
 {"version":3,"sources":[],"names":[],"mappings":"","file":"footer.component.css"}
-=======
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "footer.component.scss"
-    ],
-    "names": [],
-    "file": "footer.component.css"
-}
->>>>>>> da583d3f30175ad3e9860fac18c5d23773cc1f2b

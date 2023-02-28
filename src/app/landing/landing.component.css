@@ -1,25 +1,15 @@
-<<<<<<< HEAD
-/*# sourceMappingURL=landing.component.css.map */
-=======
-<<<<<<< HEAD
-/* No CSS *//*# sourceMappingURL=landing.component.css.map */
-=======
-<<<<<<< HEAD
-/*# sourceMappingURL=landing.component.css.map */
-=======
-<<<<<<< HEAD
-/* No CSS *//*# sourceMappingURL=landing.component.css.map */
-=======
-<<<<<<< HEAD
-/*# sourceMappingURL=landing.component.css.map */
-=======
-<<<<<<< HEAD
-/* No CSS *//*# sourceMappingURL=landing.component.css.map */
-=======
-/*# sourceMappingURL=landing.component.css.map */
->>>>>>> c298b2b48c9ef86d6085c10b45ed7c5b3a74f7ce
->>>>>>> ebfe1b9d9a5d8244643b64d329372fb60c28a0ae
->>>>>>> fb058eb1c8ce72df6915fa43c8e2b40c320fd2c7
->>>>>>> 9db4eef89c51292d5430bc12e4ce3c526cdb4fed
->>>>>>> 546a79a1fbf66a2d9f05792b98a9508b26cc0760
->>>>>>> da583d3f30175ad3e9860fac18c5d23773cc1f2b
+#karo {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  padding-top: 700px;
+  z-index: 0;
+  justify-content: center;
+  margin-bottom: 20rem;
+  visibility: hidden;
+}/*# sourceMappingURL=landing.component.css.map */
