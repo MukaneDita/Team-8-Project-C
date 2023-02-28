@@ -1,4 +1,4 @@
-let images = [{
+export let images = [{
     link1: "assets/img/concerts(horizontal)/concert.jpg",
     link2: "assets/img/concerts(horizontal)/concert1.jpg",
     link3: "assets/img/concerts(horizontal)/concert2.jpg",
