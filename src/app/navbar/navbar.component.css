@@ -1,21 +1,19 @@
 .icons {
-    justify-content: space-around;
-    display: flex;
-    text-decoration: none;
+  justify-content: space-around;
+  display: flex;
+  text-decoration: none;
 }
 
 .navbar {
-    width: 15rem;
-    display: flex;
-    flex-direction: column;
-    background-color: palevioletred;
-    height: 50vh;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  background-color: palevioletred;
+  height: 50vh;
 }
-
 .navbar a {
-    color: black;
+  color: black;
 }
-
 .navbar a:hover {
-    background-color: blanchedalmond;
-}
+  background-color: blanchedalmond;
+}/*# sourceMappingURL=navbar.component.css.map */
