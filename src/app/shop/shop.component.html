@@ -1,1 +1,30 @@
-<p>shop works!</p>
+<div class="container">
+
+    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
+        <div *ngFor="let val of cart; index as i">
+            <div class="card mx-auto" style="width: 18rem; height: 27rem;">
+                <img src="{{ val.link }}" class="card-img-top" alt="{{ val.name }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ val.name }}</h5>
+                    <hr>
+                    <p class="card-text">{{ val.price | currency:'EUR' }}</p>
+                    <hr>
+                    <div class="text-center">
+                        <a class="btn btn-danger btnBuy" (click)="addToCart(val)">Buy</a>
+
+                        <!-- for pictures that are available -->
+                        <!-- <ng-template [ngIf]="?" [ngIfElse]="none">
+                            <a class="btn btn-danger btnBuy" (click)="addToCart(val)">Buy</a>
+                        </ng-template>
+
+                        <ng-template #none>
+                            <p id="notAvail">This picture is not available anymore</p>
+                        </ng-template> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
