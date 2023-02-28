@@ -1,6 +1,20 @@
 .container {
     width: 80%;
     margin-left: 20%;
+    .cart {
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: end;
+            label {
+                margin: 1rem;
+            }
+            .btn {
+                margin: 1rem;
+            }
+        }
+    }
     #empty {
         height: 37rem;
         display: flex;

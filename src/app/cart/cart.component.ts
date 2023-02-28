@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { shop, Ishop } from '../shop';
 import { CartService } from '../cart.service';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-cart',
@@ -11,6 +12,18 @@ export class CartComponent implements OnInit {
   cart: Ishop[] = [];
   total: number =0;
 
+  checkout = new FormGroup({
+    firstName: new FormControl(''),
+    lastName: new FormControl(''),
+    email:new FormControl(''),
+    address: new FormControl(''),
+  });
+
+  onSubmit(){
+          var a = this.checkout.value;
+          window.alert(`Thank you for shopping with us, ${a.firstName} ${a.lastName}! You'll get order confirmation on your email: ${a.email} soon. And then we'll make sure to send your order to address: ${a.address} as soon as possible. Have a nice day!`);
+      console.log(a)
+    }
   constructor(private cartService: CartService) { }
 
   deleteQtty(i:number){
