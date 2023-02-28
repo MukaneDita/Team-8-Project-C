@@ -1,61 +1,40 @@
-img {
-    height: 30rem;
+.container {
+    width: 80%;
+    margin-left: 20%;
+}
+
+h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #text {
-    width: 80%;
-    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    img {
+        width: 100%
+    }
+    #about {
+        align-self: flex-end;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 
-.container2 {
-    width: 80%;
-    margin-left: 20%;
+#list {
     display: flex;
+    flex-direction: row;
+    gap: 8rem;
     justify-content: center;
-    // align-items: center;
-    padding: 0.625rem;
-    gap: 15rem;
-    .item {
-        // border: 1px solid red;
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // h1 {
-        //     text-align: center;
-        // }
-        ul {
-            li {
-                width: fit-content;
-                margin-left: 3rem;
-            }
-            p {
-                font-weight: bold;
-            }
-        }
-        form {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: end;
-            margin: 0.625rem;
-            padding: 0.625rem;
-            h1 {
-                // // margin: 40px;
-                // text-align: start;
-            }
-            label {
-                margin: 1.1rem;
-                input {
-                    margin-left: 0.4rem;
-                }
-            }
-            .btnDiv {
-                // justify-self: center;
-                // align-self: center;
-                .btn {
-                    margin: 0.9rem;
-                }
-            }
-        }
+}
+
+.text {
+    padding-top: 4rem;
+}
+
+.submit {
+    form {
+        display: flex;
+        flex-direction: column;
     }
 }
