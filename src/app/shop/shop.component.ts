@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { shop, Ishop } from '../shop'; 
+import { shop, Ishop } from '../shop';
 import { CartService } from '../cart.service';
 
 @Component({
@@ -7,7 +7,7 @@ import { CartService } from '../cart.service';
   templateUrl: './shop.component.html',
   styleUrls: ['./shop.component.scss']
 })
-export class ShopComponent  implements OnInit {
+export class ShopComponent implements OnInit {
   shop: Array<Ishop> = shop;
   cart: Ishop[] = [];
 
