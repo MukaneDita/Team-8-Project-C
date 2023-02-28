@@ -19,18 +19,11 @@ export class BioComponent {
 
   onSubmit() {
     // to take the values from the form you can select the property that have the formGroup and then just add .value
-<<<<<<< HEAD
-      var a = this.info.value;
-      console.log(a)
-    }
-  
-=======
 
     var a = this.info.value;
     console.log(a)
 
   }
 
->>>>>>> 277857dd49604179545234c3499fc03e2e1e7b1f
 
 }
