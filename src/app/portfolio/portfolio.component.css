@@ -1,4 +1,18 @@
 .container {
   width: 80%;
   margin-left: 20%;
+  display: grid;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+img {
+  width: 380px;
+  /* You can set the dimensions to whatever you want */
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  gap: 10px;
+  margin: 10px;
 }/*# sourceMappingURL=portfolio.component.css.map */

@@ -1,2 +1,22 @@
 <app-navbar></app-navbar>
-<p>details works!</p>
+<div class="container">
+    <div class="item" *ngFor="let val of image; index as id">
+        <div>
+            <img src="/{{ val }}">
+        </div>
+    </div>
+</div>
+
+<!-- <ng-template [ngIf]="{{ val.orientation==true }}" [ngIfElse]="none">
+here we add grid for horizontal images
+    <div class="row row-cols-lg-3" *ngFor="let val of images; index as id">
+ 
+    </div>
+</ng-template>
+
+<ng-template #none>
+here we add grid for vertical images
+   <div class="row row-cols-lg-4" *ngFor="let val of images; index as id">
+
+   </div>
+</ng-template> -->
