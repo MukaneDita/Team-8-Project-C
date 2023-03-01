@@ -21,13 +21,8 @@
 }
 
 .landingtext {
-<<<<<<< HEAD
-  font-family: "Exo", sans-serif;
-  height: 90%;
-=======
   font-family: 'Exo', sans-serif;
-  height: 91%;
->>>>>>> 6dd1b3ee1e51ef6a67406862e72a436c879c060c
+  height: 90%;
   text-decoration: none;
   text-align: center;
   position: absolute;

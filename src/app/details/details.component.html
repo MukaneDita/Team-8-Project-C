@@ -1,8 +1,9 @@
 <app-navbar></app-navbar>
+
 <div class="container">
 
     <!--for vertical pictures-->
-    <ng-template [ngIf]="id == 1 || id == 2 " [ngIfElse]="none">
+    <ng-template [ngIf]="id == 1 || id == 2" [ngIfElse]="none">
         <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-1">
             <div *ngFor="let val of image; index as i">
 
@@ -13,9 +14,6 @@
         </div>
 
     </ng-template>
-    <!-- <div class="item">
-            <img src="/{{ val }} ">
-        </div> -->
 
     <!--for horizontal pictures-->
     <ng-template #none>
@@ -27,5 +25,9 @@
             </div>
         </div>
     </ng-template>
+
+    <!-- <div class="item">
+            <img src="/{{ val }} ">
+        </div> -->
 
 </div>

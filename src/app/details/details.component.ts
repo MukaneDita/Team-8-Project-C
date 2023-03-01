@@ -12,6 +12,7 @@ export class DetailsComponent implements OnInit {
   image: Array<string> = [];
   id: number = 0;
 
+  
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
