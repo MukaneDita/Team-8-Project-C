@@ -1,6 +1,7 @@
 <app-navbar></app-navbar>
 <div class="container">
     <h1 class="text-center">Who are we?</h1>
+
     <div id="text">
 
         <div id="text">
@@ -16,6 +17,7 @@
         </div>
     </div>
     <h1 class="text-center">Awards</h1>
+
     <div id="list">
         <div class="item">
             <ul>
@@ -53,37 +55,38 @@
 
 
     <h1 class="text-center">Contact Us</h1>
-    <div id="submit">
 
-        <form [formGroup]="info" (ngSubmit)="onSubmit()">
-
-            <label>
-            First Name:
-            <input type="text" formControlName="firstName">
+    <div id="subContainer">
+        <img id="photo" src="assets/logo/photographer2.jpg" alt="photographer">
+        <div id="submit">
+            <form [formGroup]="info" (ngSubmit)="onSubmit()">
+                <label>
+            First Name: <br>
+            <input class="shadow-sm p-3 mb-5 bg-body-tertiary rounded" type="text" formControlName="firstName">
         </label>
-
-            <label>
-            Last Name:
-            <input type="text" formControlName="lastName">
+                <br>
+                <label>
+            Last Name: <br>
+            <input class="shadow-sm p-3 mb-5 bg-body-tertiary rounded" type="text" formControlName="lastName">
         </label>
-
-            <label>        
-            Email:       
-            <input type="email" formControlName="email">        
+                <br>
+                <label>        
+            Email:       <br>
+            <input class="shadow-sm p-3 mb-5 bg-body-tertiary rounded" type="email" formControlName="email">        
         </label>
-
-            <label>
-            Subject:
-            <input type="text" formControlName="subject">
+                <br>
+                <label>
+            Subject: <br>
+            <input class="shadow-sm p-3 mb-5 bg-body-tertiary rounded" type="text" formControlName="subject">
                 </label>
 
-            <textarea name="" id="" cols="40" rows="10" formControlName="message"></textarea>
+                <textarea class="shadow-sm p-3 mb-5 bg-body-tertiary rounded" name="" id="" cols="40" rows="10" formControlName="message"></textarea>
 
-            <div class="btnDiv">
-                <input type="submit" value="Submit" class="btn btn-success">
-
-            </div>
-
-        </form>
+                <div class="btnDiv">
+                    <input class="shadow-sm p-3 mb-5 bg-body-tertiary rounded" type="submit" value="Submit" class="btn btn-success">
+                </div>
+            </form>
+        </div>
     </div>
+
 </div>

@@ -1,42 +1,63 @@
-img {
-  height: 30rem;
+.container {
+  width: 80%;
+  margin-left: 20%;
+}
+
+h1 {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid rgba(130, 129, 129, 0.849);
 }
 
 #text {
-  width: 80%;
-  margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+}
+#text img {
+  width: 100%;
+}
+#text #about {
+  align-self: flex-end;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-.container2 {
-  width: 80%;
-  margin-left: 20%;
+#list {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  justify-content: center;
+}
+
+.text {
+  padding-top: 4rem;
+}
+
+#subContainer {
+  display: flex;
+  position: relative;
+}
+#subContainer #photo {
+  position: absolute;
+  width: 100%;
+}
+#subContainer #submit {
+  position: absolute;
   display: flex;
   justify-content: center;
-  padding: 0.625rem;
-  gap: 15rem;
+  width: 40%;
+  padding: 1rem;
+  z-index: 1;
+  color: white;
 }
-.container2 .item ul li {
-  width: -moz-fit-content;
-  width: fit-content;
-  margin-left: 3rem;
+#subContainer #submit form label {
+  text-align: center;
 }
-.container2 .item ul p {
-  font-weight: bold;
+#subContainer #submit form .btnDiv {
+  display: inline;
 }
-.container2 .item form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: end;
-  margin: 0.625rem;
-  padding: 0.625rem;
-}
-.container2 .item form label {
-  margin: 1.1rem;
-}
-.container2 .item form label input {
-  margin-left: 0.4rem;
-}
-.container2 .item form .btnDiv .btn {
-  margin: 0.9rem;
+#subContainer #submit form .btnDiv input {
+  background-color: white !important;
+  color: black !important;
 }/*# sourceMappingURL=bio.component.css.map */

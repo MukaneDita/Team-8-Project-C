@@ -5,7 +5,10 @@
 
 h1 {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid rgba(130, 129, 129, 0.849);
+    // width: 30rem;
 }
 
 #text {
@@ -32,9 +35,37 @@ h1 {
     padding-top: 4rem;
 }
 
-.submit {
-    form {
+#subContainer {
+    display: flex;
+    position: relative;
+    #photo {
+        position: absolute;
+        width: 100%;
+    }
+    #submit {
+        position: absolute;
+        // border: 4px solid black;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+        padding: 1rem;
+        z-index: 1;
+        color: white;
+        form {
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            label {
+                text-align: center;
+                // margin: 0.5rem;
+            }
+            .btnDiv {
+                display: inline;
+                input {
+                    background-color: white !important;
+                    color: black !important;
+                }
+            }
+        }
     }
 }
