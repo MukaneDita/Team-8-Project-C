@@ -8,7 +8,7 @@ h1 {
   margin-bottom: 2rem;
   padding-bottom: 0.5rem;
   border-bottom: 4px solid rgba(130, 129, 129, 0.849);
-  font-family: "Exo", sans-serif;
+  font-family: 'Exo', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 4rem;
@@ -29,10 +29,13 @@ h1 {
 .row {
   margin-top: 2rem;
 }
+
 .row .card {
   margin-left: 2rem !important;
   border: none !important;
 }
+
 .row .card .name {
   font-weight: bold;
-}/*# sourceMappingURL=testimonials.component.css.map */
+}
+/*# sourceMappingURL=testimonials.component.css.map */

@@ -2,28 +2,40 @@
   width: 80%;
   margin-left: 20%;
 }
+
 .container .box {
   margin: 0.6rem;
 }
+
 .container .box img {
   height: 25rem;
 }
+
 .container .box .textDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0.2rem;
-  background-color: rgb(218, 217, 217);
+  background-color: #dad9d9;
 }
+
 .container .box .textDiv p {
   padding-top: 0.6rem;
 }
+
 .container .box .textDiv .bi {
   font-size: large;
 }
+
 .container .box .btn {
   margin-left: 0.4rem;
   margin-right: 0.4rem;
+  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: rgb(218, 217, 217);
-}/*# sourceMappingURL=shop.component.css.map */
+  background-color: #dad9d9;
+}
+/*# sourceMappingURL=shop.component.css.map */
