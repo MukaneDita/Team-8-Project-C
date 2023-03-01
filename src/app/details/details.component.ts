@@ -15,7 +15,7 @@ export class DetailsComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-        this.route.params.subscribe((params: Params) => {
+    this.route.params.subscribe((params: Params) => {
       this.id = +params['id'];
       this.image = images[this.id];
     });
