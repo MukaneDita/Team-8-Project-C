@@ -18,10 +18,9 @@ export class BioComponent {
   });
 
   onSubmit() {
-    // to take the values from the form you can select the property that have the formGroup and then just add .value
-
     var a = this.info.value;
     console.log(a)
+    window.alert(`Thank you for contacting us about your ${a.subject}, ${a.firstName} ${a.lastName}! We will respond as soon as possible on your email: ${a.email} Have a nice day!`);
 
   }
 

@@ -5,9 +5,10 @@
         //vertical
         overflow: hidden;
         width: 15rem;
-        margin: 2rem;
+        margin: 1rem;
         .img1 {
             height: 20rem;
+            width: 100%;
         }
     }
     .item2 {
@@ -17,6 +18,7 @@
         margin: 1rem;
         .img2 {
             height: 14rem;
+            width: 100%;
         }
     }
 }
