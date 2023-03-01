@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,GAAG;CACnB",
-    "sources": [
-        "testimonials.component.scss"
-    ],
-    "names": [],
-    "file": "testimonials.component.css"
-}
+{"version":3,"sources":["testimonials.component.scss","testimonials.component.css"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,gBAAA;ACCJ","file":"testimonials.component.css"}
