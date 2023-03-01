@@ -1,3 +1,22 @@
-img {
-    height: 18rem;
+.container {
+    width: 80%;
+    margin-left: 20%;
+    .item1 {
+        //vertical
+        overflow: hidden;
+        width: 15rem;
+        margin: 2rem;
+        .img1 {
+            height: 20rem;
+        }
+    }
+    .item2 {
+        // for horizontal
+        overflow: hidden;
+        width: 18rem;
+        margin: 1rem;
+        .img2 {
+            height: 11rem;
+        }
+    }
 }
