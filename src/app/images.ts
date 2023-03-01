@@ -1,4 +1,4 @@
-export let images = [[
+export let images : Array<any>= [[
 
      "assets/img/concerts(horizontal)/concert.jpg",
      "assets/img/concerts(horizontal)/concert1.jpg",
@@ -66,16 +66,3 @@ export let images = [[
    "assets/img/landscapes(horizontal)/landscape8.jpg",
     "assets/img/landscapes(horizontal)/landscape9.jpg",
 ]];
-
-// interface IImages {
-//     link1: string,
-//     link2: string,
-//     link3: string,
-//     link4: string,
-//     link5: string,
-//     link6: string,
-//     link7: string,
-//     link8: string,
-//     link9: string,
-//     link10: string
-// };
