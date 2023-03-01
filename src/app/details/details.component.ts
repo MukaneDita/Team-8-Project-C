@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap, Params } from '@angular/router';
-import { images, IImages } from '../images';
+import { images } from '../images';
 
 @Component({
   selector: 'app-details',
@@ -8,8 +8,8 @@ import { images, IImages } from '../images';
   styleUrls: ['./details.component.scss']
 })
 export class DetailsComponent implements OnInit {
-  images: Array<IImages> = images;
-  image: IImages = {} as IImages;
+  images: Array<any> = images;
+  image: Array<string> = [];
   id: number = 0;
 
   constructor(private route: ActivatedRoute) { }
