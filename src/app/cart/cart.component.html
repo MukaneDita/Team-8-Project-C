@@ -3,8 +3,9 @@
 
     <!-- what we see when something is in the cart -->
     <div class="cart row row-cols-2" *ngIf="cart.length!==0">
+
         <div class="item col-7">
-            <table class="table text-center">
+            <table class="text-center border-0">
                 <thead>
                     <tr>
                         <th scope="col">Item</th>
@@ -27,34 +28,34 @@
                         </ng-template>
 
                         <ng-template #none>
-                            <th scope="row" colspan="4">Total: {{ total | currency : "EUR" }}</th>
+                            <th class="text-end" scope="row" colspan="4">Total: {{ total | currency : "EUR" }}</th>
                         </ng-template>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <div class="item2 col-4">
+        <div class="item2 col-4 ">
             <h4 class="text-center">To complete your order <br> please fill in this form</h4>
             <!-- checkout form -->
             <form [formGroup]="checkout" (ngSubmit)="onSubmit()">
                 <label>
             First Name:
-            <input type="text" formControlName="firstName">
+            <input class="shadow-sm p-3 mb-2  rounded" type="text" formControlName="firstName">
         </label>
 
                 <label>
             Last Name:
-            <input type="text" formControlName="lastName">
+            <input class="shadow-sm p-3 mb-2  rounded" type="text" formControlName="lastName">
         </label>
 
                 <label>        
             Email:       
-            <input type="email" formControlName="email">        
+            <input class="shadow-sm p-3 mb-2  rounded" type="email" formControlName="email">        
         </label>
 
                 <label>
             Last Name:
-            <input type="text" formControlName="address">
+            <input class="shadow-sm p-3 mb-2  rounded" type="text" formControlName="address">
         </label>
 
                 <div class="btnDiv">
@@ -65,6 +66,7 @@
             </form>
         </div>
     </div>
+
 
     <!-- what we see when the cart is empty -->
     <div *ngIf="cart.length==0" id="empty">

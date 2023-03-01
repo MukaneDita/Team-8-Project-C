@@ -66,4 +66,8 @@ h1 {
 #subContainer #submit form .btnDiv input {
   background-color: white !important;
   color: black !important;
+  margin-bottom: 0 !important;
+}
+#subContainer #submit form .btnDiv .mb-5 {
+  margin-bottom: 0 !important;
 }/*# sourceMappingURL=bio.component.css.map */

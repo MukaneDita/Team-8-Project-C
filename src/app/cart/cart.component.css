@@ -1,12 +1,19 @@
 .container {
   width: 80%;
   margin-left: 20%;
+  margin-right: none;
+}
+.container .cart {
+  justify-content: space-between;
 }
 .container .cart form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: end;
+}
+.container .cart form h4 {
+  font-family: "Exo", sans-serif;
 }
 .container .cart form label {
   margin: 1rem;
@@ -23,4 +30,30 @@
 .container #empty h2 {
   margin: 3.2rem;
   padding: 3.2rem;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0.5rem 0.5rem;
+  border-collapse: separate;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+table th,
+table td {
+  padding: 1rem;
+  margin: 2rem;
+  text-align: left;
+  box-shadow: 0 1px 9px 1px rgba(0, 0, 0, 0.28);
+}
+
+.item2 {
+  background-color: rgb(69, 68, 68);
+  color: white;
+  margin-right: 2rem;
+  padding-top: 2rem;
+}
+.item2 .btnDiv input {
+  background-color: white !important;
+  color: black !important;
 }/*# sourceMappingURL=cart.component.css.map */
