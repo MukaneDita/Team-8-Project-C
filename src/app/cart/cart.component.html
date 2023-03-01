@@ -2,9 +2,10 @@
 <div class="container">
 
     <!-- what we see when something is in the cart -->
-    <div class="cart row row-cols-2" *ngIf="cart.length!==0">
 
-        <div class="item col-7">
+    <div class="cart row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1" *ngIf="cart.length!==0">
+
+        <div class="item">
             <table class="text-center border-0">
                 <thead>
                     <tr>
@@ -34,7 +35,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="item2 col-4 ">
+        <div class="item2 ">
             <h4 class="text-center">To complete your order <br> please fill in this form</h4>
             <!-- checkout form -->
             <form [formGroup]="checkout" (ngSubmit)="onSubmit()">
@@ -66,11 +67,9 @@
             </form>
         </div>
     </div>
+</div>
 
-
-    <!-- what we see when the cart is empty -->
-    <div *ngIf="cart.length==0" id="empty">
-        <h2 class="text-body-tertiary text-center">The cart is empty</h2>
-    </div>
-
+<!-- what we see when the cart is empty -->
+<div *ngIf="cart.length==0" id="empty">
+    <h2 class="text-body-tertiary text-center">The cart is empty</h2>
 </div>

@@ -52,7 +52,7 @@ table {
 .item2 {
     background-color: rgb(69, 68, 68);
     color: white;
-    margin-right: 2rem;
+    // margin-left: 8rem;
     padding-top: 2rem;
     .btnDiv {
         input {
@@ -60,4 +60,8 @@ table {
             color: black !important;
         }
     }
+}
+
+.item {
+    padding-right: 5rem;
 }
