@@ -9,7 +9,7 @@
                 </div>
                 <div class="textDiv">
                     <p class="card-text"><b>"{{ val.name }}" </b> {{ val.price | currency:'EUR' }}</p>
-                    <button class="btn btnBuy" (click)="actionMethod($event)" (click)="addToCart(val)">Buy <i class="bi bi-basket2-fill"></i></button>
+                    <button class="btn btnBuy" (click)="actionMethod($event)" (click)="addToCart(val)" [swal]="['Congrats!', 'Your order has been added to the cart!', 'success']">Buy <i class="bi bi-basket2-fill"></i></button>
 
                 </div>
 

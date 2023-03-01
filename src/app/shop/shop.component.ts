@@ -20,7 +20,6 @@ export class ShopComponent implements OnInit {
 }
 
   addToCart(val: Ishop) {
-    window.alert('Your order has been added to the cart!');
     this.cartService.addToCart(val);
   }
   
