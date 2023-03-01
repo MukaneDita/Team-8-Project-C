@@ -3,22 +3,34 @@
   padding-top: 0;
   position: fixed;
   width: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.425);
 }
+
 .navbar a {
   color: black;
 }
+
 .navbar a:hover {
   background-color: blanchedalmond;
 }
+
 .navbar img {
   width: 70%;
 }
+
 .navbar #icons i {
   margin-left: 1rem;
   font-size: 1.3rem;
-}/*# sourceMappingURL=navbar.component.css.map */
+}
+/*# sourceMappingURL=navbar.component.css.map */

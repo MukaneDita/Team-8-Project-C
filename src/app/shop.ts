@@ -48,7 +48,7 @@ export let shop = [{
     type: "Still-Life",
     qtty: 1
 }, {
-    name: "Still Transience Of Life",
+    name: "Transience Of Life",
     link: "assets/img/still-life(vertical)/still_life7.jpg",
     price: 120,
     orientation: "vertical",

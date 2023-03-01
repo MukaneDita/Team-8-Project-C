@@ -8,7 +8,9 @@
 .navbar {
   position: absolute;
   z-index: 3;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   visibility: hidden;
   display: none;
   color: white;
@@ -21,14 +23,16 @@
   position: absolute;
   color: azure;
   background-color: rgba(139, 0, 139, 0.153);
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   top: 20%;
   left: 42%;
   z-index: 2;
   font-size: 3em;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /* width: 20em;
-  height: 20em; */
+    height: 20em; */
 }
 
 a {
@@ -38,4 +42,5 @@ a {
 
 .logo {
   width: 5em;
-}/*# sourceMappingURL=landing.component.css.map */
+}
+/*# sourceMappingURL=landing.component.css.map */
