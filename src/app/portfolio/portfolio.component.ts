@@ -9,7 +9,7 @@ import { IImages } from '../IImages';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent {
-images : Array <IImages> = images;
+images : Array<any> = images;
 
   constructor(private rout: ActivatedRoute) { }
   
