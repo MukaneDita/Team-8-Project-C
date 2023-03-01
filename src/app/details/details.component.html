@@ -1,2 +1,50 @@
 <app-navbar></app-navbar>
-<p>details works!</p>
+<div class="container">
+    <div class="item" *ngFor="let val of images; index as id">
+        <div>
+            <img src="{{ val.link1 }}">
+            <img src="{{ val.link2 }}">
+            <img src="{{ val.link3 }}">
+            <img src="{{ val.link4 }}">
+            <img src="{{ val.link5 }}">
+            <img src="{{ val.link6 }}">
+            <img src="{{ val.link7 }}">
+            <img src="{{ val.link8 }}">
+            <img src="{{ val.link9 }}">
+            <img src="{{ val.link10 }}">
+
+        </div>
+    </div>
+</div>
+
+<!-- <ng-template [ngIf]="{{ val.orientation==true }}" [ngIfElse]="none">
+here we add grid for horizontal images
+    <div class="row row-cols-lg-3" *ngFor="let val of images; index as id">
+            <img src="{{ val.link1 }}">
+            <img src="{{ val.link2 }}">
+            <img src="{{ val.link3 }}">
+            <img src="{{ val.link4 }}">
+            <img src="{{ val.link5 }}">
+            <img src="{{ val.link6 }}">
+            <img src="{{ val.link7 }}">
+            <img src="{{ val.link8 }}">
+            <img src="{{ val.link9 }}">
+            <img src="{{ val.link10 }}">
+    </div>
+</ng-template>
+
+<ng-template #none>
+here we add grid for horizontal images
+   <div class="row row-cols-lg-4" *ngFor="let val of images; index as id">
+            <img src="{{ val.link1 }}">
+            <img src="{{ val.link2 }}">
+            <img src="{{ val.link3 }}">
+            <img src="{{ val.link4 }}">
+            <img src="{{ val.link5 }}">
+            <img src="{{ val.link6 }}">
+            <img src="{{ val.link7 }}">
+            <img src="{{ val.link8 }}">
+            <img src="{{ val.link9 }}">
+            <img src="{{ val.link10 }}">
+   </div>
+</ng-template> -->
