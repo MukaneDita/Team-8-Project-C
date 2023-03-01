@@ -8,5 +8,6 @@ export interface IImages {
     link7: string,
     link8: string,
     link9: string,
-    link10: string
+    link10: string,
+    title: string
 };

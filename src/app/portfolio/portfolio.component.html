@@ -4,14 +4,8 @@
         <div *ngFor="let val of images; index as id">
             <p>{{id }}</p>
             <a routerLink="/portfolio/{{ id }}"><img src="{{val[0]}}" alt="{{val[0]}}"></a>
+            <div *ngIf="">
+            </div>
         </div>
     </div>
 </div>
-
-<!-- <div class="container">
-    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm1">
-        <div *ngFor="let val of images">
-            <img src="{{val.link1}}" alt="{{val.link2}}" style="width:100%;">
-            <div class="centered">Concert</div>
-        </div>
-    </div> -->
