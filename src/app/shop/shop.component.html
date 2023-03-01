@@ -4,13 +4,14 @@
     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
         <div *ngFor="let val of shop; index as i">
             <div class="box">
+
                 <div class="imageDiv">
                     <img src="{{ val.link }}" class="card-img-top" alt="{{ val.name }}">
                 </div>
+
                 <div class="textDiv">
                     <p class="card-text"><b>"{{ val.name }}" </b> {{ val.price | currency:'EUR' }}</p>
                     <button class="btn btnBuy" (click)="actionMethod($event)" (click)="addToCart(val)">Buy <i class="bi bi-basket2-fill"></i></button>
-
                 </div>
 
             </div>
