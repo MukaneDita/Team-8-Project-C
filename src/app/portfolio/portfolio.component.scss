@@ -15,3 +15,30 @@ img {
     gap: 10px;
     margin: 10px;
 }
+
+.card {
+    border: none !important;
+}
+
+.card-title {
+    text-decoration: none !important;
+    color: white;
+    border: none !important;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0;
+    font-size: large;
+    font-weight: bold;
+}
+
+a:hover {
+    left: 10px;
+    top: 10px;
+    width: 380px;
+    /* You can set the dimensions to whatever you want */
+    height: 380px;
+    opacity: 5;
+    background-color: rgba(0, 0, 0, 0.429);
+}

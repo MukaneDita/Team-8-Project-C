@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, ParamMap, Params } from '@angular/router';
-import { images } from '../images';
+import { images, titles } from '../images';
 import { IImages } from '../IImages';
 
 @Component({
@@ -10,6 +10,7 @@ import { IImages } from '../IImages';
 })
 export class PortfolioComponent {
 images : Array<any> = images;
+titles : Array<any> = titles;
 
   constructor(private rout: ActivatedRoute) { }
   

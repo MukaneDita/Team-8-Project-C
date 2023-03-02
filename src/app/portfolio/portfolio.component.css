@@ -1,7 +1,6 @@
 .container {
   width: 80%;
   margin-left: 20%;
-  display: -ms-grid;
   display: grid;
   position: relative;
   text-align: center;
@@ -17,4 +16,30 @@ img {
   gap: 10px;
   margin: 10px;
 }
-/*# sourceMappingURL=portfolio.component.css.map */
+
+.card {
+  border: none !important;
+}
+
+.card-title {
+  text-decoration: none !important;
+  color: white;
+  border: none !important;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0;
+  font-size: large;
+  font-weight: bold;
+}
+
+a:hover {
+  left: 10px;
+  top: 10px;
+  width: 380px;
+  /* You can set the dimensions to whatever you want */
+  height: 380px;
+  opacity: 5;
+  background-color: rgba(0, 0, 0, 0.429);
+}/*# sourceMappingURL=portfolio.component.css.map */
