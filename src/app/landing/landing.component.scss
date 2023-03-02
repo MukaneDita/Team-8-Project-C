@@ -6,37 +6,40 @@
 }
 
 .carousel-item img {
-    height: 100vh;
+    /* height: 100vh; */
+    height: 100%;
 }
 
 .navbar {
     position: absolute;
-    // padding-top: 700px;
     z-index: 3;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
-    // margin-bottom: 20rem;
     visibility: hidden;
-    // align-content: ;
     display: none;
     color: white;
 }
 
 .landingtext {
-    font-family: 'Exo', sans-serif;
+    font-family: "Exo", sans-serif;
     height: 90%;
     text-decoration: none;
     text-align: center;
     position: absolute;
     color: azure;
     background-color: rgba(139, 0, 139, 0.153);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
-    top: 5%;
+    top: 30%;
     left: 40%;
     z-index: 2;
-    font-size: 3em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    filter: drop-shadow(1px 2px 1px rgb(0, 0, 0));
-    // filter: drop-shadow(2px 3px 12px rgb(115, 75, 246));
+    font-size: 4rem;
+    /* font-size: 3em; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    -webkit-filter: drop-shadow(1px 2px 1px black);
+    filter: drop-shadow(1px 2px 1px black);
     /* width: 20em;
     height: 20em; */
 }
@@ -49,14 +52,15 @@ a {
 
 .logo {
     width: 5em;
-    filter: drop-shadow(2px 3px 12px rgb(115, 75, 246));
-    // height: 5em;
+    -webkit-filter: drop-shadow(2px 3px 12px #734bf6);
+    filter: drop-shadow(2px 3px 12px #734bf6);
 }
 
 #icons {
     font-size: 2rem;
     background-color: rgba(139, 0, 139, 0.153);
-    filter: drop-shadow(2px 3px 12px rgb(195, 246, 75));
+    -webkit-filter: drop-shadow(2px 3px 12px #c3f64b);
+    filter: drop-shadow(2px 3px 12px #c3f64b);
 }
 
 i {
