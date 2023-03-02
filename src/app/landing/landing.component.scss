@@ -1,13 +1,20 @@
 #karo {
     width: 100%;
-    height: 100%;
-    z-index: 1;
+    height: 90%;
     position: relative;
+    z-index: -1;
+    overflow: hidden;
 }
 
 .carousel-item img {
-    /* height: 100vh; */
-    height: 100%;
+    // height: 120vh;
+    // height: 100%;
+    // position: absolute;
+    // z-index: 1;
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    overflow: hidden;
 }
 
 // .navbar {
@@ -22,7 +29,11 @@
 // }
 .landingtext {
     font-family: "Exo", sans-serif;
-    height: 90%;
+    // height: 90%;
+    object-fit: cover;
+    object-position: center;
+    height: 80vh;
+    overflow: hidden;
     text-decoration: none;
     text-align: center;
     position: absolute;
@@ -31,10 +42,10 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    top: 30%;
+    top: 10%;
     left: 40%;
     z-index: 2;
-    font-size: 4rem;
+    font-size: 2rem;
     /* font-size: 3em; */
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     -webkit-filter: drop-shadow(1px 2px 1px black);
