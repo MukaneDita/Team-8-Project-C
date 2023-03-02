@@ -13,6 +13,7 @@ export class CartComponent implements OnInit {
   total: number =0;
   newCheckout: any = "";
 
+  //form
   checkout = new FormGroup({
     firstName: new FormControl(''),
     lastName: new FormControl(''),

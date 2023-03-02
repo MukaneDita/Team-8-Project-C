@@ -2,6 +2,7 @@
 <div class="container">
 
     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
+        <!--loop to print the pictures-->
         <div *ngFor="let val of shop; index as i">
             <div class="box">
                 <div class="imageDiv">
@@ -9,7 +10,7 @@
                 </div>
                 <div class="textDiv">
                     <p class="card-text"><b>"{{ val.name }}" </b> {{ val.price | currency:'EUR' }}</p>
-                    <!-- sweet alert on the button -->
+                    <!-- sweet alert on the button. added event to deactivate the btn  -->
                     <button class="btn btnBuy" (click)="actionMethod($event)" (click)="addToCart(val)" [swal]="['Congrats!', 'Your order has been added to the cart!', 'success']">Buy <i class="bi bi-basket2-fill"></i></button>
 
                 </div>

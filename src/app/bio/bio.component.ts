@@ -9,6 +9,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 })
 export class BioComponent {
 
+  //form
   newInfo: any = "";
   info = new FormGroup({
     firstName: new FormControl(''),

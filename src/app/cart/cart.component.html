@@ -24,11 +24,11 @@
                     </tr>
 
                     <tr>
-                        <!-- discount -->
-                        <ng-template [ngIf]="total>=1000" [ngIfElse]="none">
+                        <!-- with discount -->
+                        <ng-template [ngIf]="total>=800" [ngIfElse]="none">
                             <th scope="row" colspan="4">Total: {{ total | currency : "EUR" }}. Your discount is 10%. Your new price is {{ total * 0.90 | currency : "EUR"}}</th>
                         </ng-template>
-
+                        <!--without discount-->
                         <ng-template #none>
                             <th class="text-end" scope="row" colspan="4">Total: {{ total | currency : "EUR" }}</th>
                         </ng-template>
@@ -36,10 +36,11 @@
                 </tbody>
             </table>
         </div>
+
         <div class="item2 ">
             <h4 class="text-center">To complete your order <br> please fill in this form</h4>
 
-            <!-- checkout form -->
+            <!--checkout form with castomized sweet alert-->
             <form [formGroup]="checkout" (ngSubmit)="onSubmit()">
                 <label>
             First Name:
@@ -63,7 +64,7 @@
 
                 <div class="btnDiv">
                     <input type="submit" value="Checkout" class="btn btn-success" (click)="checkoutSwal.fire()">
-                    <!-- sweet alert with values from the form -->
+                    <!-- sweet alert returns values from the form -->
                     <swal #checkoutSwal title="Thank you for your purchase!" text="Thank you for shopping with us, {{checkout.value.firstName}} {{checkout.value.lastName}}!You'll get order confirmation on your email: {{checkout.value.email}} soon. And then we'll make sure to send your order to address: {{checkout.value.address}} as soon as possible. Have a nice day!"
                         icon="success" [showCancelButton]="true" [focusCancel]="true">
                     </swal>
