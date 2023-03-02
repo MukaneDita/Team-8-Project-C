@@ -9,6 +9,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 })
 export class BioComponent {
 
+  newInfo: any = "";
   info = new FormGroup({
     firstName: new FormControl(''),
     lastName: new FormControl(''),
@@ -18,9 +19,9 @@ export class BioComponent {
   });
 
   onSubmit() {
-    var a = this.info.value;
-    console.log(a)
-    window.alert(`Thank you for contacting us about your ${a.subject}, ${a.firstName} ${a.lastName}! We will respond as soon as possible on your email: ${a.email} Have a nice day!`);
+    this.newInfo = this.info.value;
+    console.log(this.newInfo);
+    //  window.alert(`Thank you for contacting us about your ${this.newInfo.subject}, ${this.newInfo.firstName} ${this.newInfo.lastName}! We will respond as soon as possible on your email: ${this.newInfo.email} Have a nice day!`);
 
   }
 

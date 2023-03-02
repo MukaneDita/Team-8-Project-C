@@ -83,7 +83,12 @@
                 <textarea class="shadow-sm p-3 mb-5 bg-body-tertiary rounded" name="" id="" cols="40" rows="10" formControlName="message"></textarea>
 
                 <div class="btnDiv">
-                    <input class="shadow-sm p-3 mb-5 bg-body-tertiary rounded" type="submit" value="Submit" class="btn btn-success">
+                    <input class="shadow-sm p-3 mb-5 bg-body-tertiary rounded" type="submit" value="Submit" class="btn btn-success" (click)="formSwal.fire()">
+
+                    <swal #formSwal title="Great!" text="Thank you for contacting us about your {{info.value.subject}}, {{info.value.firstName}} {{info.value.lastName}}! We will respond as soon as possible on your email: {{info.value.email}} Have a nice day!" icon="success"
+                        [showCancelButton]="true" [focusCancel]="true">
+                    </swal>
+
                 </div>
             </form>
         </div>

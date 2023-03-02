@@ -57,13 +57,17 @@
         </label>
 
                 <label>
-            Last Name:
+            Address:
             <input class="shadow-sm p-3 mb-2  rounded" type="text" formControlName="address">
         </label>
 
                 <div class="btnDiv">
 
-                    <input type="submit" value="Checkout" class="btn btn-success">
+                    <input type="submit" value="Checkout" class="btn btn-success" (click)="checkoutSwal.fire()">
+
+                    <swal #checkoutSwal title="Thank you for contacting us!" text="Thank you for shopping with us, {{checkout.value.firstName}} {{checkout.value.lastName}}!You'll get order confirmation on your email: {{checkout.value.email}} soon. And then we'll make sure to send your order to address: {{checkout.value.address}} as soon as possible. Have a nice day!"
+                        icon="success" [showCancelButton]="true" [focusCancel]="true">
+                    </swal>
 
                 </div>
 
