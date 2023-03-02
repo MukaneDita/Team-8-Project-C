@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap, Params } from '@angular/router';
+import Swal from 'sweetalert2';
 import { images } from '../images';
 
 @Component({
@@ -11,6 +12,27 @@ export class DetailsComponent implements OnInit {
   images: Array<any> = images;
   image: Array<string> = [];
   id: number = 0;
+
+  popUp(param: string){
+    Swal.fire({
+      imageUrl: `${param}`,
+      imageHeight: 600,
+      imageWidth: "90%",
+      width: "40%",
+      imageAlt: 'A tall image'
+    })
+  }
+
+  popUp2(param: string){
+    Swal.fire({
+      imageUrl: `${param}`,
+      //  imageHeight: 600,
+        imageWidth: "90%",
+      imageAlt: 'A tall image',
+      width: "85%",
+    })
+  }
+  
 
   constructor(private route: ActivatedRoute) { }
 

@@ -8,7 +8,7 @@
             <div *ngFor="let val of image; index as i">
 
                 <div class="item1">
-                    <img src="/{{ val }}" class="img1">
+                    <a (click)="popUp(val)"><img src="/{{ val }}" class="img1"></a>
                 </div>
             </div>
         </div>
@@ -20,14 +20,15 @@
         <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
             <div *ngFor="let val of image; index as i">
                 <div class="item2">
-                    <img src="/{{ val }}" class="img2">
+                    <a (click)="popUp2(val)"><img src=" /{{ val }} " class="img2 "></a>
                 </div>
             </div>
         </div>
     </ng-template>
 
-    <!-- <div class="item">
+    <!-- <div class="item ">
             <img src="/{{ val }} ">
         </div> -->
+
 
 </div>
