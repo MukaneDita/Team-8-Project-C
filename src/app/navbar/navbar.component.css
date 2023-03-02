@@ -38,6 +38,16 @@
   margin-bottom: 2rem;
 }
 
+.navbar #icons #par {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.navbar #icons p {
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
 .navbar #icons i {
   margin-left: 1rem;
   font-size: 1.5rem;
