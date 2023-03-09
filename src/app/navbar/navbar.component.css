@@ -1,55 +1,42 @@
 .navbar {
   color: white;
-  background-color: #454444 !important;
+  background-color: rgb(69, 68, 68) !important;
   margin-top: 0;
   padding-top: 0;
   position: fixed;
   width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   height: 100%;
 }
-
 .navbar a {
   color: white;
   font-size: larger;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
 }
-
 .navbar a .logo {
-  -webkit-filter: drop-shadow(0px 5px 3px black);
-          filter: drop-shadow(0px 5px 3px black);
+  filter: drop-shadow(0px 5px 3px rgb(0, 0, 0));
 }
-
+.navbar a #cartLink .badge {
+  margin-left: 0.9rem;
+}
 .navbar a:hover {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
-
 .navbar img {
   width: 80%;
   margin-bottom: 2rem;
 }
-
 .navbar #icons #par {
   margin-bottom: 1rem;
   margin-left: 1rem;
 }
-
 .navbar #icons p {
   margin-left: 1rem;
   margin-bottom: 0;
 }
-
 .navbar #icons i {
   margin-left: 1rem;
   font-size: 1.5rem;
-}
-/*# sourceMappingURL=navbar.component.css.map */
+}/*# sourceMappingURL=navbar.component.css.map */

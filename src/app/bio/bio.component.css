@@ -8,46 +8,31 @@ h1 {
   margin-bottom: 2rem;
   padding-bottom: 0.5rem;
   border-bottom: 4px solid rgba(130, 129, 129, 0.849);
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 4rem;
 }
 
 #text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin-bottom: 2rem;
 }
-
 #text img {
   width: 100%;
 }
-
 #text #about {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
 #list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   gap: 8rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding-bottom: 2rem;
 }
 
@@ -56,46 +41,33 @@ h1 {
 }
 
 #subContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
-
 #subContainer #photo {
   position: absolute;
   width: 100%;
 }
-
 #subContainer #submit {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 40%;
   padding: 1rem;
   z-index: 1;
   color: white;
 }
-
 #subContainer #submit form label {
   text-align: center;
 }
-
 #subContainer #submit form .btnDiv {
   display: inline;
 }
-
 #subContainer #submit form .btnDiv input {
   background-color: white !important;
   color: black !important;
   margin-bottom: 0 !important;
 }
-
 #subContainer #submit form .btnDiv .mb-5 {
   margin-bottom: 0 !important;
-}
-/*# sourceMappingURL=bio.component.css.map */
+}/*# sourceMappingURL=bio.component.css.map */

@@ -2,26 +2,21 @@
   width: 80%;
   margin-left: 20%;
 }
-
 .container .item1 {
   overflow: hidden;
   width: 15rem;
   margin: 1rem;
 }
-
 .container .item1 .img1 {
   height: 20rem;
   width: 100%;
 }
-
 .container .item2 {
   overflow: hidden;
   width: 20rem;
   margin: 1rem;
 }
-
 .container .item2 .img2 {
   height: 14rem;
   width: 100%;
-}
-/*# sourceMappingURL=details.component.css.map */
+}/*# sourceMappingURL=details.component.css.map */
